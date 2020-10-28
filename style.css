@@ -1,0 +1,40 @@
+.slider__wrap {
+    position: relative;
+    width: 350px;
+    height: 600px;
+    margin: 50px auto;
+
+    border: 1px solid #000;
+}
+
+.slider {
+    position: relative;
+    width: 350px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.slider img {
+    position: absolute;
+    width: 350px;
+    height: 600px;
+    opacity: 1;
+    transition: all ease 1s;
+}
+
+.slider .visibility {
+    opacity: 0;
+}
+
+.slider__btn-wrap {
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.slider__btn {
+    width: 75px;
+    height: 36px;
+
+    cursor: pointer;
+}

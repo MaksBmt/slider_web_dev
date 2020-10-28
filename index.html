@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бесконечный слайдер от webDev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="slider__wrap">
+        <div class="slider">
+            <img src="img/4044-act-1.jpg" alt="">
+            <img src="img/4044-act-2.jpg" alt="">
+            <img src="img/4044-act-3.jpg" alt="">
+            <img src="img/4044-act-4.jpg" alt="">
+        </div>
+        <div class="slider__btn-wrap">
+            <button class="slider__btn slider__btn--up">UP</button>
+            <button class="slider__btn slider__btn--down">DOWN</button>
+        </div>
+        <form enctype="multipart/form-data" action="/upload/image" method="post">
+            <input id="image-file" type="file" />
+            <button type="submit" class="slider__submit">Отправить</button>
+        </form>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
